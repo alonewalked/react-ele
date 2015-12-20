@@ -1,0 +1,27 @@
+html {height: 100%;}
+body {height: 100%;}
+
+.fixslide{background-color: #2F3036;}
+
+/* 条目总体样式 */
+.fixslide .item {display: table; height: 60px; width: 100%;border-bottom: 2px solid #38393F;}
+.fixslide .item .itemlogo , .fixslide .item .itemshelf {display: table-cell; vertical-align: middle;}
+ 
+.fixslide .item .itemlogo {width: 60px;}
+.fixslide .item .itemlogo img  {margin-left: 10px;width: 40px;}
+.fixslide .item .itemshelf .shelfinfo01 {font-size: 20px;color: #AFAFAF;}
+
+/* 条目特例 */
+.fixslide .login { height: 70px;border-bottom: 2px solid #3993CF;}
+.fixslide .login .itemlogo {width: 80px;}
+.fixslide .login .userlogo img {width: 60px;}
+.fixslide .login .itemshelf .shelfinfo01 {font-size: 20px;color: #fff;}
+.fixslide .login .itemshelf .shelfinfo02 {font-size: 14px;color: #A4A4A5;margin-top: 5px;}
+
+/* 底部美食相机 */
+.fixslide .foodphone {position: absolute; bottom: 0;border-bottom: 0;border-top: 2px solid #38393F;height: 80px;}
+.fixslide .foodphone .itemlogo {width: 80px;}
+.fixslide .foodphone .itemlogo img  {margin-left: 10px;width: 60px;}
+
+/* 悬停样式 */
+.fixslide .itemhover {background-color: #3993CF;}
